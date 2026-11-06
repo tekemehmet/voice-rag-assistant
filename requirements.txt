@@ -1,0 +1,11 @@
+streamlit
+openai
+azure-ai-projects>=2.3.0
+azure-identity
+azure-search-documents
+azure-cognitiveservices-speech
+pypdf
+python-dotenv
+numpy
+streamlit
+azure-cognitiveservices-speech
