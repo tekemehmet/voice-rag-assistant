@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NASA Space Explorer</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <header class="header">
+            <div class="brand">
+                <div class="brand-icon">🚀</div>
+                <div>
+                    <h1>NASA Space Explorer</h1>
+                    <p>Abandoned but not Forgotten</p>
+                </div>
+            </div>
+
+            <button id="new-chat-button" class="new-chat-button">
+                + New Chat
+            </button>
+        </header>
+
+
+        <main>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <span class="eyebrow">AI-POWERED SPACE EXPLORATION</span>
+
+                    <h2>
+                        Discover the stories<br>
+                        <span>left behind in space.</span>
+                    </h2>
+
+                    <p>
+                        Explore the forgotten equipment on the Moon and Mars.
+                        Ask questions and discover the fascinating stories
+                        behind NASA's missions.
+                    </p>
+                </div>
+            </section>
+
+
+            <section class="chat-section">
+
+                <div id="chat-messages" class="chat-messages">
+
+                    <div class="welcome-message">
+                        <div class="assistant-avatar">🪐</div>
+
+                        <div class="message-content">
+                            <h3>Welcome, Space Explorer!</h3>
+
+                            <p>
+                                I'm your AI space guide. Ask me anything
+                                about NASA's abandoned equipment on the
+                                Moon and Mars. Let's explore!
+                            </p>
+
+                            <div class="suggestions">
+                                <button class="suggestion">
+                                    What did Apollo astronauts leave on the Moon?
+                                </button>
+
+                                <button class="suggestion">
+                                    Why did NASA leave equipment behind?
+                                </button>
+
+                                <button class="suggestion">
+                                    What equipment is on Mars?
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="loading-indicator" class="loading hidden">
+                    <div class="loading-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span>Exploring NASA documents...</span>
+                </div>
+
+
+                <form id="chat-form" class="chat-form">
+
+                    <input
+                        type="text"
+                        id="question-input"
+                        placeholder="Ask your space question..."
+                        autocomplete="off"
+                        maxlength="4000"
+                        required
+                    >
+
+                    <button type="submit" id="send-button">
+                        Ask 🚀
+                    </button>
+
+                </form>
+
+                <div class="input-footer">
+                    <span>Powered by Azure AI Foundry</span>
+                    <span>🔊 Voice responses enabled</span>
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+            <p>
+                NASA Space Apps Challenge · Abandoned but not Forgotten
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

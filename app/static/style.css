@@ -1,0 +1,27 @@
+
+/* Source citations */
+
+.sources {
+    margin-top: 18px;
+    padding: 12px 15px;
+    background: rgba(104, 199, 255, 0.07);
+    border: 1px solid rgba(104, 199, 255, 0.2);
+    border-radius: 10px;
+}
+
+.sources h4 {
+    color: var(--primary);
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.sources ul {
+    padding-left: 20px;
+}
+
+.sources li {
+    color: var(--muted);
+    font-size: 12px;
+    margin: 5px 0;
+    overflow-wrap: anywhere;
+}

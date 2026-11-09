@@ -9,3 +9,5 @@ python-dotenv
 numpy
 streamlit
 azure-cognitiveservices-speech
+fastapi
+uvicorn[standard]

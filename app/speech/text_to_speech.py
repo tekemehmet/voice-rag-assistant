@@ -26,7 +26,7 @@ class TextToSpeech:
 
         # English neural voice
         self.speech_config.speech_synthesis_voice_name = (
-            "en-US-AvaNeural"
+            "en-US-JennyNeural"
         )
 
         # MP3 output for browser playback
