@@ -11,3 +11,4 @@ streamlit
 azure-cognitiveservices-speech
 fastapi
 uvicorn[standard]
+gunicorn

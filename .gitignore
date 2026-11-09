@@ -1,9 +1,31 @@
-.env
-.venv/
+# Python
 __pycache__/
-*.pyc
-.pytest_cache/
-.DS_Store
-data/pdfs/
 *.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local database
 data/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Test and cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
