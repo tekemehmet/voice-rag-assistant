@@ -10,6 +10,7 @@ from app.api.routes import router
 from app.database import Database
 from app.rag.foundry_agent import FoundryAgent
 from app.speech.text_to_speech import TextToSpeech
+from fastapi.middleware.cors import CORSMiddleware
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -47,6 +48,16 @@ app = FastAPI(
     ),
     version="1.1.0",
     lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
