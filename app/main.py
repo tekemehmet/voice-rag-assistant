@@ -54,6 +54,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "https://zealous-sand-0093bcb0f.5.azurestaticapps.net",
     ],
     allow_credentials=False,
     allow_methods=["*"],
